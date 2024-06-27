@@ -1,11 +1,17 @@
 'use client'
 
-import  {Header}  from './components/header';
+import { Designer } from './components/designer';
+import Header from './components/header';
+import Presentation from './components/presentation';
+import { Projects } from './components/projects';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between px-8 bg-base_light">
-      <Header />
+    <main className="flex flex-col items-center justify-between bg-base_light">
+      {/* <Header /> */}
+      <Presentation />
+      <Designer />
+      <Projects />
     </main>
   );
 }

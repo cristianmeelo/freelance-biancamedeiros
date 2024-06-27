@@ -1,6 +1,6 @@
-import Image from 'next/image';
 import { useState } from 'react';
-import logo from '../../../public/logo.svg';
+import Image from 'next/image';
+import logo from '../../../public/images/logo.svg';
 
 const DEFAULT_HOVERED = -1;
 export const Header = () => {
@@ -16,11 +16,11 @@ export const Header = () => {
   const [outMenu, setOutMenu] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-20 px-8 flex justify-between items-center bg-red-50 z-50">
+    <header className="hidden lg:flex fixed top-0 left-0 w-full h-20 px-8  justify-between items-center bg-red-50 z-50 md:flex sm:hidden">
       <div className="flex h-20 py-4">
         <Image
           src={logo}
-          alt="Logo da marca, bianca medeiro e uma folha à direita"
+          alt="Logo da marca, bianca medeiros e uma folha à direita"
           width={200}
         />
       </div>
@@ -35,11 +35,10 @@ export const Header = () => {
             onMouseEnter={() => setLinkHovered(index)}
             onMouseLeave={() => setLinkHovered(DEFAULT_HOVERED)}
             className={`relative cursor-pointer transition-colors duration-300 
-              ${
-                index === linkHovered
-                  ? 'text-base-orange'
-                  : !outMenu
-                  ? 'text-black'
+              ${index === linkHovered
+                ? 'text-base-orange'
+                : !outMenu
+                  ? 'text-stone-900'
                   : 'text-base_light'
               }
 
