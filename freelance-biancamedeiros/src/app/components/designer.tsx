@@ -20,7 +20,7 @@ export const Designer = () => {
       {/* <div className='flex py-8 items-center justify-center'>
         <h3 className='font-kandira text-[32px]' data-aos="zoom-in">Conheça a profissional...</h3>
       </div> */}
-      <div className='flex flex-col items-center md:flex-row md:items-start'>
+      <div className='flex flex-col items-center md:flex-row md:items-start py-20'>
         <div className="flex w-1/2 pt-8 md:pt-0">
           <div data-aos="fade-right">
             <Image
@@ -52,11 +52,11 @@ export const Designer = () => {
         </div>
       </div>
       <FloatingWhatsApp
-        phoneNumber="+5551986275006"
-        accountName="Cristian - Gerente"
-        avatar='/images/avatar.png'
-        chatMessage='O Cristian é top, bem vindo!'
-        statusMessage='Geralmente responde em milésimos de segundos'
+        phoneNumber="+5551994600686"
+        accountName="Escritório Bianca Medeiros"
+        avatar='/images/avatar.jpg'
+        chatMessage='Olá! Quero tornar sua casa em um lar, me diga como posso tornar isso realidade.'
+        statusMessage='Geralmente responde em minutos'
       />
     </div>
   );
