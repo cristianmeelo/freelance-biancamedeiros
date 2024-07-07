@@ -17,7 +17,8 @@ export const Header = () => {
 
   return (
     <header className="hidden lg:flex fixed top-0 left-0 w-full h-20 px-8  justify-between items-center bg-red-50 z-50 md:flex sm:hidden">
-      <div className="flex h-20 py-4">
+      header
+      {/* <div className="flex h-20 py-4">
         <Image
           src={logo}
           alt="Logo da marca, bianca medeiros e uma folha à direita"
@@ -49,7 +50,7 @@ export const Header = () => {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </header>
   );
 };
