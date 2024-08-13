@@ -1,5 +1,4 @@
 export const Testimonials = () => {
-
   const testimonials = [
     {
       quote:
@@ -73,7 +72,9 @@ export const Testimonials = () => {
           Feedbacks
         </h2>
         <p className="mt-2 text-lg leading-8 text-gray-600">
-          Conheça quem confiou no nosso trabalho e veja o que eles dizem sobre nós.        </p>
+          Conheça quem confiou no nosso trabalho e veja o que eles dizem sobre
+          nós.{" "}
+        </p>
         <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 shadow rounded-lg">
@@ -102,4 +103,4 @@ export const Testimonials = () => {
       </div>
     </div>
   );
-}
+};

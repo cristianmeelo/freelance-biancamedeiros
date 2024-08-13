@@ -45,4 +45,4 @@ export const Partners = () => {
       </div>
     </div>
   );
-}
+};

@@ -62,8 +62,9 @@ export const Header = () => {
           </button>
         </div>
         <ul
-          className={`lg:flex space-x-10 text-2xl font-kandira ${menuOpen ? "block" : "hidden"
-            } lg:block absolute lg:static top-20 left-0 w-full bg-red-50 lg:bg-transparent`}
+          className={`lg:flex space-x-10 text-2xl font-kandira ${
+            menuOpen ? "block" : "hidden"
+          } lg:block absolute lg:static top-20 left-0 w-full bg-red-50 lg:bg-transparent`}
           onMouseEnter={() => setOutMenu(true)}
           onMouseLeave={() => setOutMenu(false)}
         >
@@ -73,12 +74,13 @@ export const Header = () => {
               onMouseEnter={() => setLinkHovered(index)}
               onMouseLeave={() => setLinkHovered(DEFAULT_HOVERED)}
               className={`relative cursor-pointer transition-colors duration-300 
-              ${index === linkHovered
+              ${
+                index === linkHovered
                   ? "text-base-orange"
                   : !outMenu
                     ? "text-stone-900"
                     : "text-base_light"
-                }
+              }
               py-4 px-6 lg:py-0 lg:px-0
             `}
             >

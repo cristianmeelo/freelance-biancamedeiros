@@ -8,7 +8,6 @@ const stats = [
 export const Results = () => {
   return (
     <div className="mx-auto w-full py-6 sm:px-6 sm:py-32 lg:px-8">
-
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
         <div
           aria-hidden="true"
@@ -40,10 +39,10 @@ export const Results = () => {
               Inspire Confiança em Nossos Projetos
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Com anos de experiência e um portfólio impressionante, nossa equipe
-              transforma visões em realidades extraordinárias. Explore nossos
-              projetos e descubra porque somos a escolha certa para seu próximo
-              desafio arquitetônico.
+              Com anos de experiência e um portfólio impressionante, nossa
+              equipe transforma visões em realidades extraordinárias. Explore
+              nossos projetos e descubra porque somos a escolha certa para seu
+              próximo desafio arquitetônico.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -75,4 +74,4 @@ export const Results = () => {
       </div>
     </div>
   );
-}
+};

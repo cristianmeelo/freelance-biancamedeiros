@@ -28,9 +28,9 @@ export const CardHero = () => {
             Realize seu sonho com um projeto exclusivo.
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Bianca Medeiros cria ambientes que refletem seu estilo e
-            bem-estar. Entre em contato e descubra como podemos transformar
-            seu espaço em algo extraordinário.
+            Bianca Medeiros cria ambientes que refletem seu estilo e bem-estar.
+            Entre em contato e descubra como podemos transformar seu espaço em
+            algo extraordinário.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-center">
             <a
@@ -39,10 +39,7 @@ export const CardHero = () => {
             >
               Comece seu projeto
             </a>
-            <a
-              href="#"
-              className="text-sm font-semibold leading-6 text-white"
-            >
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
               Saiba mais <span aria-hidden="true">→</span>
             </a>
           </div>
@@ -50,4 +47,4 @@ export const CardHero = () => {
       </div>
     </div>
   );
-}
+};

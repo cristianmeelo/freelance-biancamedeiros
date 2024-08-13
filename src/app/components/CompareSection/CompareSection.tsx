@@ -25,9 +25,9 @@ export const CompareSection = () => {
           leftImage={beforeImageUrl}
           rightImage={afterImageUrl}
           sliderLineColor="rgba(255, 255, 255, 0.8)"
-        // sliderLineBorderColor="#ffffff"
+          // sliderLineBorderColor="#ffffff"
         />
       </div>
     </section>
   );
-}
+};

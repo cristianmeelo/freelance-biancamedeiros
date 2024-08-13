@@ -1,7 +1,19 @@
-'use client';
+"use client";
 
-import { FloatingWhatsApp } from 'react-floating-whatsapp';
-import { CardHero, Faq, Footer, Testimonials, About, Projects, Results, Header, Partners, CompareSection, Presentation } from '@/app/components';
+import { FloatingWhatsApp } from "react-floating-whatsapp";
+import {
+  CardHero,
+  Faq,
+  Footer,
+  Testimonials,
+  About,
+  Projects,
+  Results,
+  Header,
+  Partners,
+  CompareSection,
+  Presentation,
+} from "@/app/components";
 
 export default function Home() {
   return (
