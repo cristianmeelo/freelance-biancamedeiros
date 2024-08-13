@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Kandira';
-  src: url('/fonts/Kandira-Reg.ttf') format('truetype');
+  font-family: "Kandira";
+  src: url("/fonts/Kandira-Reg.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -22,8 +22,7 @@ html {
 }
 
 body {
-  font-family: 'Kandira', sans-serif;
-
+  font-family: "Kandira", sans-serif;
   overflow-x: hidden;
 }
 
@@ -45,4 +44,22 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #ce9257;
   border-radius: 2px;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(45deg, #ebded7, #ce9257, #ebded7, #ce9257);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
 }

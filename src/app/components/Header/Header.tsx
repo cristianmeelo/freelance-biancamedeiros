@@ -1,15 +1,15 @@
-import { useState } from 'react';
-import Image from 'next/image';
-import logo from '../../../public/images/logo.svg';
+import { useState } from "react";
+import Image from "next/image";
+import logo from "../../../../public/images/logo.svg";
 
 const DEFAULT_HOVERED = -1;
 
 export const Header = () => {
   const links = [
-    { text: 'Designer', url: 'base_orange' },
-    { text: 'Projetos', url: 'base_red' },
-    { text: 'Consultoria', url: 'base_green' },
-    { text: 'Contato', url: 'base_light' },
+    { text: "Designer", url: "base_orange" },
+    { text: "Projetos", url: "base_red" },
+    { text: "Consultoria", url: "base_green" },
+    { text: "Contato", url: "base_light" },
   ];
 
   const [linkHovered, setLinkHovered] = useState(DEFAULT_HOVERED);
@@ -62,7 +62,7 @@ export const Header = () => {
           </button>
         </div>
         <ul
-          className={`lg:flex space-x-10 text-2xl font-kandira ${menuOpen ? 'block' : 'hidden'
+          className={`lg:flex space-x-10 text-2xl font-kandira ${menuOpen ? "block" : "hidden"
             } lg:block absolute lg:static top-20 left-0 w-full bg-red-50 lg:bg-transparent`}
           onMouseEnter={() => setOutMenu(true)}
           onMouseLeave={() => setOutMenu(false)}
@@ -74,10 +74,10 @@ export const Header = () => {
               onMouseLeave={() => setLinkHovered(DEFAULT_HOVERED)}
               className={`relative cursor-pointer transition-colors duration-300 
               ${index === linkHovered
-                  ? 'text-base-orange'
+                  ? "text-base-orange"
                   : !outMenu
-                    ? 'text-stone-900'
-                    : 'text-base_light'
+                    ? "text-stone-900"
+                    : "text-base_light"
                 }
               py-4 px-6 lg:py-0 lg:px-0
             `}

@@ -1,19 +1,29 @@
-'use client'
+'use client';
 
-import { Designer } from './components/designer';
-import Footer from './components/footer';
-import Header from './components/header';
-import Presentation from './components/presentation';
-import { Projects } from './components/projects';
+import { FloatingWhatsApp } from 'react-floating-whatsapp';
+import { CardHero, Faq, Footer, Testimonials, About, Projects, Results, Header, Partners, CompareSection, Presentation } from '@/app/components';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between bg-base_light">
+    <main className="flex flex-col items-center justify-between bg-white">
       <Header />
       <Presentation />
-      <Designer />
+      <CompareSection />
+      <Partners />
+      <Results />
       <Projects />
+      <About />
+      <Testimonials />
+      <CardHero />
+      <Faq />
       <Footer />
+      <FloatingWhatsApp
+        phoneNumber="+5551994600686"
+        accountName="Escritório Bianca Medeiros"
+        avatar="/images/avatar.jpg"
+        chatMessage="Olá! Como posso te ajudar hoje?"
+        statusMessage="Geralmente responde em minutos"
+      />
     </main>
   );
 }
