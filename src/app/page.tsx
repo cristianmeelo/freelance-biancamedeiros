@@ -33,7 +33,9 @@ export default function Home() {
       <section id="gallery">
         <Gallery />
       </section>
-      <Footer />
+      <section id="contact">
+        <Footer />
+      </section>
     </main>
   );
 }

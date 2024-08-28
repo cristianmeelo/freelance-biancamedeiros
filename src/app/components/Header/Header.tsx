@@ -10,8 +10,8 @@ export const Header = () => {
     { text: "Projetos", id: "projects" },
     { text: "Consultoria", id: "compare-section" },
     { text: "Cortinas", id: "curtains" },
-    { text: "Galeria", id: "results" },
-    { text: "Contato", id: "about" },
+    { text: "Galeria", id: "gallery" },
+    { text: "Contato", id: "contact" },
   ];
 
   const [linkHovered, setLinkHovered] = useState(DEFAULT_HOVERED);
