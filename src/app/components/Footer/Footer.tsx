@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <footer className="mt-4 py-12 border-t border-base_green w-full px-40">
       <div className="mx-auto">
-        <div className="text-center mb-8 ">
+        <div className="text-center mb-8">
           <h2 className="text-2xl font-semibold text-gray-900">Localização</h2>
           <p className="mt-2 text-gray-600">
             Venha nos visitar ou entre em contato para saber mais sobre nossos
@@ -12,19 +12,22 @@ export const Footer = () => {
             <p className="text-base text-gray-800">
               Rua Lorem Ipsum, 1234, Porto Alegre, RS 94910-567
             </p>
+            <p className="text-base text-gray-800 mt-2">
+              Telefone: <a href="tel:+5551994600686" className="text-base_green hover:text-gray-900">51 99460-0686</a>
+            </p>
           </div>
         </div>
         <div className="flex w-full justify-around md:items-center md:justify-between py-4">
           <ul className="flex justify-center md:justify-start mb-4 md:mb-0">
-            <li>
+            <li className="mx-2">
               <a
                 href="https://www.instagram.com/interiores.bianca"
-                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out"
+                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
                 aria-label="Instagram"
               >
                 <svg
-                  className="w-8 h-8 fill-current"
+                  className="w-10 h-10 fill-current"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -32,15 +35,15 @@ export const Footer = () => {
                 </svg>
               </a>
             </li>
-            <li className="ml-4">
+            <li className="mx-2">
               <a
                 href="https://api.whatsapp.com/send?phone=5551994600686&text=Ol%C3%A1!+Gostaria+de+fazer+um+or%C3%A7amento!"
-                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out"
+                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
                 aria-label="WhatsApp"
               >
                 <svg
-                  className="w-8 h-8 fill-current"
+                  className="w-10 h-10 fill-current"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -53,10 +56,10 @@ export const Footer = () => {
           {/* Copyright */}
           <div className="text-sm text-gray-600 text-center md:text-right">
             &copy; 2024 -{" "}
-            <a href="https://www.linkedin.com/in/cristian-melo/">
+            <a href="https://www.linkedin.com/in/cristian-melo/" className="text-base_green hover:text-gray-900">
               Dev Cristian Melo
             </a>
-            . Todos os diretos reservados.
+            . Todos os direitos reservados.
           </div>
         </div>
       </div>
