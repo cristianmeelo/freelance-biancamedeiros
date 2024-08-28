@@ -3,11 +3,11 @@ import curtainImage1 from "../../../../public/images/screen.jpeg"; // Substitua 
 
 export const Curtains = () => {
   return (
-    <section className="bg-white py-24 sm:py-32">
+    <section className="bg-base_light py-24 sm:py-32">
       <div className="container mx-auto px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-6">
-          Cortinas e Decorações
-        </h1>
+        <h5 className="text-3xl sm:text-4xl font-bold text-start mb-6">
+          Cortinas
+        </h5>
         <p className="text-base sm:text-lg text-center mb-8">
           Bianca Medeiros dispõe da empresa Claudia Cortinas e Decorações, que é de sua família para personalizar seus projetos com produtos exclusivos, já que a fabricação é própria!
           Além das cortinas em tecido, a empresa trabalha com persianas, papel de parede, tapete, almofadas...
@@ -55,13 +55,14 @@ export const Curtains = () => {
         <div className="text-center mt-8">
           <a
             href="https://www.claudiacortinas.com.br"
-            className="text-blue-500 underline hover:text-blue-600"
+            className="inline-block text-base bg-base_red font-semibold text-white hover:text-base_red transition-colors duration-300 underline-offset-2 hover:underline p-2 rounded"
             target="_blank"
             rel="noopener noreferrer"
           >
             Visite o site da Claudia Cortinas e Decorações
           </a>
         </div>
+
       </div>
     </section>
   );

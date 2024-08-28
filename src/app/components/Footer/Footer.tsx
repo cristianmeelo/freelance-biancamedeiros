@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="mt-4 py-12 border-t border-gray-200 w-full px-40">
+    <footer className="mt-4 py-12 border-t border-base_green w-full px-40">
       <div className="mx-auto">
         <div className="text-center mb-8 ">
           <h2 className="text-2xl font-semibold text-gray-900">Localização</h2>

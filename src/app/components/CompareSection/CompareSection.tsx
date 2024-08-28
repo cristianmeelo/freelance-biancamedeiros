@@ -5,7 +5,7 @@ export const CompareSection = () => {
   const afterImageUrl = "/images/after.jpeg";
 
   return (
-    <section className="relative w-full bg-gray-100 flex items-center justify-center py-12">
+    <section className="relative w-full flex items-center justify-center py-12">
       <div className="w-full max-w-3xl h-[400px] md:h-[600px]">
         <CompareImage
           leftImage={beforeImageUrl}

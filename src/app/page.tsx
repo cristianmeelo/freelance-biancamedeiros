@@ -13,7 +13,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between bg-white">
+    <main className="flex flex-col items-center justify-between bg-white font-glacial">
       <Header />
       <section id="presentation">
         <Presentation />

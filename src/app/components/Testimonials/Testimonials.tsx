@@ -3,69 +3,73 @@ import { StarIcon } from "@heroicons/react/20/solid"; // Importando ícone de es
 
 const testimonials = [
   {
-    quote: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
-    name: "Leslie Alexander",
-    username: "@lesliealexander",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
-    rating: 4.5, // Avaliação em estrelas
+    quote: "Excelente profissional. Super dedicada e qualificada. Recomendo de olhos fechados!",
+    name: "Fatima de Bem",
+    avatar: "https://lh3.googleusercontent.com/a/ACg8ocJbYPueqh-V6YJV9GNKNNvnld5UWOaQc48tnp9soZ-gz4CL5A=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "5 meses atrás",
+    commentsCount: 10,
   },
   {
-    quote: "Anim sit consequat culpa commodo eu do nisi commodo ut aute aliqua. Laborum esse duis tempor consectetur officia mollit fugiat. Exercitation qui elit minim minim quis fugiat ex.",
-    name: "Michael Foster",
-    username: "@michaelfoster",
-    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
-    rating: 4.0, // Avaliação em estrelas
+    quote: "Bianca é uma profissional extremamente atenciosa e faz a leitura daquilo que desejamos. Concilia praticidade e estética de forma leve e personalizada. Pontual nas entregas e cuidadosa até no pós-montagem, onde busca saber a funcionalidade do produto final e o feedback do usuário. Recomendo!",
+    name: "Jeanne Alencar",
+    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjVDJomHAqN_7XwDCVE0D1czPL6tT0lOBi14S3-nfy2HwPymKq7M_Q=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "5 meses atrás",
+    commentsCount: 10,
   },
   {
-    quote: "Consequatur ut atque. Itaque nostrum molestiae id veniam eos cumque.",
-    name: "Dries Vincent",
-    username: "@driesvincent",
-    avatar: "https://randomuser.me/api/portraits/men/46.jpg",
-    rating: 5.0, // Avaliação em estrelas
+    quote: "A Bianca é uma ótima profissional, além de excelente pessoa. Mesmo sendo muito competente, escuta os desejos do cliente e conduz o processo com leveza, escuta e afetividade.",
+    name: "Marcia Tedesco",
+    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjWbTwpaOyTJoPkLiqtYmFo8Y6RHD7C4Dzw5INTMJBScMAKyhM4bcQ=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "11 meses atrás",
+    commentsCount: 5,
   },
   {
-    quote: "Excepteur consectetur deserunt id incididunt veniam mollit officia sint qui aute duis sit cillum. Reprehenderit fugiat amet aliqua in commodo minim sunt laborum.",
-    name: "Lindsay Walton",
-    username: "@lindsaywalton",
-    avatar: "https://randomuser.me/api/portraits/women/47.jpg",
-    rating: 4.8, // Avaliação em estrelas
+    quote: "Excelente profissional! Atenciosa, busca entender a real necessidade do cliente. Trabalhos lindos e muito bem feitos!",
+    name: "Thais Franciele Maito",
+    avatar: "https://lh3.googleusercontent.com/a/ACg8ocJg7R8ZGHfBYpfIXtTeaed7SskjtjSMf5y2HQ1eOIpuHk6MkQ=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "11 meses atrás",
+    commentsCount: 2,
   },
   {
-    quote: "Distinctio facere aliquam est qui atque sint molestias ad. Fuga consequuntur asperiores voluptatum ipsum.",
-    name: "Courtney Henry",
-    username: "@courtneyhenry",
-    avatar: "https://randomuser.me/api/portraits/women/48.jpg",
-    rating: 3.5, // Avaliação em estrelas
+    quote: "Fiz as cortinas da sala e do meu quarto, e coloquei papel de parede no meu quarto. Tudo ficou impecável. Atendimento eficiente e entrega antes do prazo. As costuras e o caimento das cortinas ficaram excelentes, e o papel de parede, além de lindo, ficou muito bem colocado. Super recomendo!",
+    name: "Juliane Santos Müller",
+    avatar: "https://lh3.googleusercontent.com/a/ACg8ocL8t8xedlV8l6NoCxHAMID6Mq5oWeVJ3k7YiPkzOGX3BL1c-A=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "11 meses atrás",
+    commentsCount: 3,
   },
   {
-    quote: "Nam nesciunt dolorem dolor asperiores sint. Incidunt molestiae quis deleniti vitae ut in earum delectus iusto.",
-    name: "Tom Cook",
-    username: "@tomcook",
-    avatar: "https://randomuser.me/api/portraits/men/49.jpg",
-    rating: 4.2, // Avaliação em estrelas
+    quote: "Amei o resultado da minha cortina! A forma como a Bianca conduz o atendimento, super atenciosa e como designer de interiores me deu um suporte incrível; sem contar que o produto é de muita qualidade, prazo de entrega... a equipe está de parabéns! Obrigada por todo carinho em decorar minha casa, teu trabalho é impecável e com certeza vou indicá-la para minha família e amigos!",
+    name: "Daniela Bittencourt",
+    avatar: "https://lh3.googleusercontent.com/a/ACg8ocKXaUb7AqfwfhtjeXfuYM2R3rFHUHqpB3SzJYLV49x8i60NZA=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "2 anos atrás",
+    commentsCount: 1,
+  },
+
+  {
+    quote: "Ótimo atendimento e serviço de qualidade! Fiquei muito satisfeita com a cortina para minha sala!",
+    name: "Daniela Kihara",
+    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjXcfuNdS2SsAhNbI_CQTy7rcC6xusoUp-zcY_p-3q429OYWYfc=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "um ano atrás",
+    commentsCount: 2,
   },
   {
-    quote: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis.",
-    name: "Whitney Francis",
-    username: "@whitneyfrancis",
-    avatar: "https://randomuser.me/api/portraits/women/50.jpg",
-    rating: 5.0, // Avaliação em estrelas
-  },
-  {
-    quote: "Aliquid dolore praesentium ratione. Cumque ea officia repellendus laboriosam. Vitae quod id explicabo non sunt.",
-    name: "Leonard Krasner",
-    username: "@leonardkrasner",
-    avatar: "https://randomuser.me/api/portraits/men/51.jpg",
-    rating: 4.1, // Avaliação em estrelas
-  },
-  {
-    quote: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
-    name: "Floyd Miles",
-    username: "@floydmiles",
-    avatar: "https://randomuser.me/api/portraits/men/52.jpg",
-    rating: 3.9, // Avaliação em estrelas
+    quote: "Maravilhoso, não só o atendimento e produto são de qualidade, mas pós venda e suporte técnico são excelentes! Recomendo!!!",
+    name: "Marcia Medeiros",
+    avatar: "https://lh3.googleusercontent.com/a-/ALV-UjV1ChMw4jXIz3si-M159UQcLPD85S4kb_Z7LUB5s13uSnr23kA=w60-h60-p-rp-mo-br100",
+    rating: 5,
+    date: "2 anos atrás",
+    commentsCount: 12,
   },
 ];
+
+
 
 const StarRating = ({ rating }: { rating: number }) => {
   const fullStars = Math.floor(rating);
@@ -73,7 +77,7 @@ const StarRating = ({ rating }: { rating: number }) => {
   const totalStars = 5;
 
   return (
-    <div className="flex items-center space-x-1">
+    <div className="flex items-center space-x-1" aria-label={`Rating: ${rating} out of ${totalStars}`}>
       {Array.from({ length: totalStars }, (_, index) => (
         <StarIcon
           key={index}
@@ -107,11 +111,14 @@ export const Testimonials = () => {
                 />
                 <div className="ml-4">
                   <p className="text-base font-medium text-gray-900">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.username}</p>
+                  <p className="text-sm text-gray-500">{testimonial.commentsCount} comentários</p>
                 </div>
               </div>
-              <StarRating rating={testimonial.rating} />
-              <p className="mt-4 text-lg font-semibold text-gray-900">
+              <div className="flex items-center justify-between mb-4">
+                <StarRating rating={testimonial.rating} />
+                <p className="text-sm text-gray-500 ml-4">{testimonial.date}</p> {/* Data ao lado das estrelas */}
+              </div>
+              <p className="mt-4 text-lg font-normal text-gray-900">
                 “{testimonial.quote}”
               </p>
             </div>
@@ -120,14 +127,17 @@ export const Testimonials = () => {
         <div className="text-center mt-8">
           <a
             href="https://www.google.com/search?q=feedbacks"
-            className="text-blue-500 underline hover:text-blue-600"
+            className="inline-block text-base bg-base_red font-semibold text-white hover:text-base_red transition-colors duration-300 underline-offset-2 hover:underline p-2 rounded"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Veja nossos feedbacks no Google"
           >
-            Veja nossos feedback no Google
+            Veja nossos feedbacks no Google
           </a>
         </div>
       </div>
     </div>
   );
 };
+
+export default Testimonials;

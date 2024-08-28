@@ -8,12 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        glacial: ["Inter", "sans-serif"],
+      },
       colors: {
         base_white: "#ffffff",
         base_light: "#e7dbd2",
         base_orange: "#CE9257",
         base_red: "#af6a2f",
         base_green: "#aba784",
+        base_dark: "#333333",
       },
     },
   },

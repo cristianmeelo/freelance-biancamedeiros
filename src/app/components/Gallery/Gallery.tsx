@@ -7,7 +7,7 @@ import { CompareSection } from "../CompareSection/CompareSection";
 export const Gallery = () => {
   return (
     <>
-      <section className="py-24 sm:py-32 bg-gray-50">
+      <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col lg:flex-row">
           {/* Compare Section */}
           <div className="lg:w-1/2">
@@ -43,7 +43,7 @@ export const Gallery = () => {
       </section>
 
       {/* New Section for Photo Grid */}
-      <section className="py-24 sm:py-32 bg-gray-100">
+      <section className="py-24 sm:py-32 bg-base_light rounded">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
             Galeria de Fotos
