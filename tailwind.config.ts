@@ -8,14 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        kandira: ["Kandira", "sans-serif"],
-      },
       colors: {
-        base_light: "#EBDED7",
+        base_white: "#ffffff",
+        base_light: "#e7dbd2",
         base_orange: "#CE9257",
-        base_red: "#B87D66",
-        base_green: "#889672",
+        base_red: "#af6a2f",
+        base_green: "#aba784",
       },
     },
   },
