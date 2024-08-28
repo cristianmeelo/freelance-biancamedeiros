@@ -1,70 +1,40 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
+import screen from "../../../../public/images/screen.jpeg"; // Substitua com a imagem apropriada
 
 export const Projects = () => {
   return (
-    <section className=" w-full relative bg-gray-100 py-16 px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="absolute inset-0">
-        <div className=" absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 opacity-50 animate-gradient"></div>
-      </div>
-
-      <div className="relative container mx-auto text-center">
-        <h1 className="text-4xl font-extrabold mb-8 text-white">
-          Nossos Projetos
+    <section className="flex flex-col lg:flex-row h-screen w-screen bg-white text-black">
+      <div className="flex flex-1 flex-col items-center justify-center lg:items-start lg:justify-center p-4 lg:p-8 lg:w-1/2 text-center lg:text-left">
+        <h1 className="text-3xl lg:text-4xl font-bold mb-4">
+          Projeto
         </h1>
-        <p className="text-lg mb-12 text-white">
-          Explore nossos projetos mais recentes e veja como transformamos
-          espaços com criatividade e inovação.
+        <p className="text-base lg:text-lg mb-4">
+          Geralmente os clientes têm dúvidas em relação a como o projeto funciona!
         </p>
-
-        <div className="grid grid-cols-2 gap-4">
-          <div className="relative">
-            <img
-              src="/images/after.jpeg"
-              alt="Projeto 1"
-              className="w-full h-64 object-cover rounded-lg shadow-lg"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center rounded-lg text-white p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <h2 className="text-2xl font-bold">Projeto 1</h2>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img
-              src="/images/after.jpeg"
-              alt="Projeto 2"
-              className="w-full h-64 object-cover rounded-lg shadow-lg"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center rounded-lg text-white p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <h2 className="text-2xl font-bold">
-                Dormitório bacana e aconchegante
-              </h2>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img
-              src="/images/after.jpeg"
-              alt="Projeto 3"
-              className="w-full h-64 object-cover rounded-lg shadow-lg"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center rounded-lg text-white p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <h2 className="text-2xl font-bold">
-                Quarto charmoso com tons de azul
-              </h2>
-            </div>
-          </div>
-
-          <div className="relative">
-            <img
-              src="/images/after.jpeg"
-              alt="Projeto 4"
-              className="w-full h-64 object-cover rounded-lg shadow-lg"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center rounded-lg text-white p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <h2 className="text-2xl font-bold">Projeto 4</h2>
-            </div>
-          </div>
-        </div>
+        <p className="text-base lg:text-lg mb-4">
+          E não existe uma resposta pronta, pois cada cliente tem uma necessidade específica em relação ao que gostaria de fazer em sua casa.
+        </p>
+        <p className="text-base lg:text-lg mb-4">
+          Pode ser desde um projeto do zero, em que a construtora entregou sem “nada” e temos que especificar tudo, do piso ao teto...
+        </p>
+        <p className="text-base lg:text-lg mb-4">
+          Ou casos em que a necessidade é reformar, renovar, para trazer novamente um aconchego e identidade ao lar!
+        </p>
+        <p className="text-base lg:text-lg">
+          Para que o projeto seja desenvolvido de forma organizada, temos etapas a serem seguidas dentro de um cronograma previamente estipulado e acordado com o cliente.
+        </p>
+        <button className="w-full lg:w-auto bg-blue-500 text-white py-2 px-4 rounded-lg mt-6 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
+          Faça seu orçamento aqui
+        </button>
+      </div>
+      <div className="flex flex-1 items-center justify-center lg:justify-center p-4 lg:p-8">
+        <Image
+          src={screen} // Substitua com a imagem apropriada
+          alt="Imagem de projeto"
+          className="object-cover w-full h-full lg:w-3/4 lg:h-auto"
+          width={600}
+          height={400}
+        />
       </div>
     </section>
   );

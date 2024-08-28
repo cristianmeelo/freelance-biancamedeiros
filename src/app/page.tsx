@@ -1,17 +1,13 @@
 "use client";
 
-import { FloatingWhatsApp } from "react-floating-whatsapp";
 import {
-  CardHero,
-  Faq,
+  Gallery,
   Footer,
   Testimonials,
-  About,
   Projects,
-  Results,
+  Curtains,
   Header,
-  Partners,
-  CompareSection,
+  Consulting,
   Presentation,
 } from "@/app/components";
 
@@ -19,23 +15,25 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between bg-white">
       <Header />
-      <Presentation />
-      <CompareSection />
-      <Partners />
-      <Results />
-      <Projects />
-      <About />
-      <Testimonials />
-      <CardHero />
-      <Faq />
+      <section id="presentation">
+        <Presentation />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="consulting">
+        <Consulting />
+      </section>
+      <section id="curtains">
+        <Curtains />
+      </section>
+      <section id="testimonials">
+        <Testimonials />
+      </section>
+      <section id="gallery">
+        <Gallery />
+      </section>
       <Footer />
-      <FloatingWhatsApp
-        phoneNumber="+5551994600686"
-        accountName="Escritório Bianca Medeiros"
-        avatar="/images/avatar.jpg"
-        chatMessage="Olá! Como posso te ajudar hoje?"
-        statusMessage="Geralmente responde em minutos"
-      />
     </main>
   );
 }
