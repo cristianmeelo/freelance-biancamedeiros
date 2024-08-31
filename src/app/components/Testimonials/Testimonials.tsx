@@ -110,8 +110,9 @@ export const Testimonials = () => {
                   alt={`${testimonial.name}'s avatar`}
                 />
                 <div className="ml-4">
-                  <p className="text-base font-medium text-gray-900">{testimonial.name}</p>
-                  <p className="text-sm text-gray-500">{testimonial.commentsCount} comentários</p>
+                  <p className="text-base font-medium text-gray-900 ">{testimonial.name}</p>
+
+                  <p className="text-sm text-left text-gray-500">{testimonial.commentsCount} {testimonial.commentsCount > 1 ? 'comentários' : 'comentário'} </p>
                 </div>
               </div>
               <div className="flex items-center justify-between mb-4">

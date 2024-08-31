@@ -3,7 +3,7 @@ import screen from "../../../../public/images/screen.jpeg"; // Substitua com a i
 
 export const Projects = () => {
   return (
-    <section className="flex flex-col lg:flex-row h-screen w-screen bg-base_light text-black">
+    <section className="flex flex-col lg:flex-row  w-screen bg-base_light text-black">
       <div className="flex flex-1 flex-col items-center justify-center lg:items-start lg:justify-center p-4 lg:p-8 lg:w-1/2 text-center lg:text-left">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">
           Projeto
@@ -27,9 +27,9 @@ export const Projects = () => {
           Faça seu orçamento aqui
         </button>
       </div>
-      <div className="flex flex-1 items-center justify-center lg:justify-center p-4 lg:p-8">
+      <div className="flex flex-1 items-center justify-center lg:justify-center p-4 lg:p-">
         <Image
-          src={screen} // Substitua com a imagem apropriada
+          src={screen}
           alt="Imagem de projeto"
           className="object-cover w-full h-full lg:w-3/4 lg:h-auto"
           width={600}
