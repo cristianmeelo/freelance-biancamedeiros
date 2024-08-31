@@ -3,7 +3,7 @@ import consultingImage from "../../../../public/images/screen.jpeg";
 
 export const Consulting = () => {
   return (
-    <section className="bg-white h-[75vh] py-24 sm:py-32">
+    <section className="bg-white h-[75vh] sm:py-32 py-12">
       <div className="container mx-auto px-4">
         <div className="border-b border-base_green ">
 

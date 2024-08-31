@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className="mt-4 py-12 border-t border-base_green w-full px-40">
+    <footer className="mt-4 py-12 border-t border-base_green w-screen px-14 ">
       <div className="mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-semibold text-gray-900">Localização</h2>
@@ -13,21 +13,22 @@ export const Footer = () => {
               Rua Lorem Ipsum, 1234, Porto Alegre, RS 94910-567
             </p>
             <p className="text-base text-gray-800 mt-2">
-              Telefone: <a href="tel:+5551994600686" className="text-base_green hover:text-gray-900">51 99460-0686</a>
+              Telefone: <a href="tel:+5551994600686" className="text-base_green hover:bg-opacity-90">51 99460-0686</a>
             </p>
           </div>
         </div>
         <div className="flex w-full justify-around md:items-center md:justify-between py-4">
+
+          {/* social icons */}
           <ul className="flex justify-center md:justify-start mb-4 md:mb-0">
             <li className="mx-2">
               <a
                 href="https://www.instagram.com/interiores.bianca"
-                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-full shadow transition duration-150 ease-in-out p-3"
+                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-md shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
-                aria-label="Instagram"
               >
                 <svg
-                  className="w-10 h-10 fill-current"
+                  className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 fill-current"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -37,13 +38,12 @@ export const Footer = () => {
             </li>
             <li className="mx-2">
               <a
-                href="https://api.whatsapp.com/send?phone=5551994600686&text=Ol%C3%A1!+Gostaria+de+fazer+um+or%C3%A7amento!"
-                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-full shadow transition duration-150 ease-in-out p-3"
+                href="https://www.instagram.com/interiores.bianca"
+                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-md shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
-                aria-label="WhatsApp"
               >
                 <svg
-                  className="w-10 h-10 fill-current"
+                  className="w-6 h-6 sm:w-8 sm:h-8 lg:w-10 lg:h-10 fill-current"
                   viewBox="0 0 32 32"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -56,7 +56,7 @@ export const Footer = () => {
           {/* Copyright */}
           <div className="text-sm text-gray-600 text-center md:text-right">
             &copy; 2024 -{" "}
-            <a href="https://www.linkedin.com/in/cristian-melo/" className="text-base_green hover:text-gray-900">
+            <a href="https://www.linkedin.com/in/cristian-melo/" className="text-base_green hover:bg-opacity-80">
               Dev Cristian Melo
             </a>
             . Todos os direitos reservados.

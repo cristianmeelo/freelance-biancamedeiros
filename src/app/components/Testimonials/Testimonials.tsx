@@ -91,7 +91,7 @@ const StarRating = ({ rating }: { rating: number }) => {
 
 export const Testimonials = () => {
   return (
-    <div className="py-24 sm:py-32 bg-gray-50">
+    <div className="py-12 sm:py-32 bg-gray-50">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Feedbacks

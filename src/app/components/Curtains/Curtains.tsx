@@ -3,7 +3,7 @@ import curtainImage1 from "../../../../public/images/screen.jpeg";
 
 export const Curtains = () => {
   return (
-    <section className="bg-base_light py-24 sm:py-32">
+    <section className="bg-base_light sm:py-32 py-12">
       <div className="container mx-auto px-4">
         <h5 className="text-3xl sm:text-4xl font-bold text-start mb-6">
           Cortinas

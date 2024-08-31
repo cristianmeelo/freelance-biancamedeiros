@@ -3,8 +3,7 @@ import screen from "../../../../public/images/screen.jpeg";
 
 export const Presentation = () => {
   return (
-    <section
-      className="flex flex-col lg:flex-row h-screen w-screen bg-base_white text-base_dark"
+    <section className="flex flex-col lg:flex-row h-screen w-screen py-12 bg-base_white text-base_dark"
       aria-labelledby="presentation-heading"
     >
       {/* Image Section */}
@@ -16,7 +15,7 @@ export const Presentation = () => {
         <Image
           src={screen}
           alt="Imagem representativa mostrando uma tela com design de interiores"
-          className="object-cover w-full h-full lg:w-full lg:h-auto"
+          className="object-cover w-full h-full lg:w-full lg:h-auto rounded-md"
           width={600}
           height={400}
           aria-describedby="presentation-image-description"
@@ -32,7 +31,7 @@ export const Presentation = () => {
         role="region"
         aria-labelledby="presentation-text"
       >
-        <h1 id="presentation-heading" className="text-3xl lg:text-4xl font-bold mb-4">
+        <h1 id="presentation-heading" className="pb-8 text-3xl text-base_red lg:text-4xl font-bold ">
           Transforme seu espaço com experiência e paixão
         </h1>
         <p className="text-base lg:text-lg mb-4">

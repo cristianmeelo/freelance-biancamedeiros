@@ -3,7 +3,7 @@ import screen from "../../../../public/images/screen.jpeg"; // Substitua com a i
 
 export const Projects = () => {
   return (
-    <section className="flex flex-col lg:flex-row  w-screen bg-base_light text-black">
+    <section className="flex flex-col lg:flex-row h-screen w-screen py-12 bg-base_light text-black">
       <div className="flex flex-1 flex-col items-center justify-center lg:items-start lg:justify-center p-4 lg:p-8 lg:w-1/2 text-center lg:text-left">
         <h1 className="text-3xl lg:text-4xl font-bold mb-4">
           Projeto
