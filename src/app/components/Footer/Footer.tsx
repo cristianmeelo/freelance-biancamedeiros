@@ -22,7 +22,7 @@ export const Footer = () => {
             <li className="mx-2">
               <a
                 href="https://www.instagram.com/interiores.bianca"
-                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out p-3"
+                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-full shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
                 aria-label="Instagram"
               >
@@ -38,7 +38,7 @@ export const Footer = () => {
             <li className="mx-2">
               <a
                 href="https://api.whatsapp.com/send?phone=5551994600686&text=Ol%C3%A1!+Gostaria+de+fazer+um+or%C3%A7amento!"
-                className="flex items-center text-base_green hover:text-white bg-white hover:bg-base_green rounded-full shadow transition duration-150 ease-in-out p-3"
+                className="flex items-center text-white hover:text-base_green bg-base_green hover:bg-opacity-60 rounded-full shadow transition duration-150 ease-in-out p-3"
                 target="_blank"
                 aria-label="WhatsApp"
               >
