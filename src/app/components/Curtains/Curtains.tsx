@@ -1,5 +1,5 @@
 import Image from "next/image";
-import curtainImage1 from "../../../../public/images/screen.jpeg"; // Substitua com a imagem apropriada
+import curtainImage1 from "../../../../public/images/screen.jpeg";
 
 export const Curtains = () => {
   return (
@@ -15,7 +15,7 @@ export const Curtains = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="flex flex-1 items-center justify-center lg:justify-start p-4">
             <Image
-              src={curtainImage1} // Substitua com a imagem apropriada
+              src={curtainImage1}
               alt="Imagem de cortina 1"
               className="object-cover w-full h-auto"
               width={600}
@@ -25,7 +25,7 @@ export const Curtains = () => {
           <div className="flex flex-1 flex-col">
             <div className="flex flex-1 items-center justify-center p-4">
               <Image
-                src={curtainImage1} // Substitua com a imagem apropriada
+                src={curtainImage1}
                 alt="Imagem de cortina 2"
                 className="object-cover w-full h-auto"
                 width={600}
@@ -34,7 +34,7 @@ export const Curtains = () => {
             </div>
             <div className="flex flex-1 items-center justify-center p-4">
               <Image
-                src={curtainImage1} // Substitua com a imagem apropriada
+                src={curtainImage1}
                 alt="Imagem de cortina 3"
                 className="object-cover w-full h-auto"
                 width={600}
@@ -44,7 +44,7 @@ export const Curtains = () => {
           </div>
           <div className="flex flex-1 items-center justify-center lg:justify-end p-4">
             <Image
-              src={curtainImage1} // Substitua com a imagem apropriada
+              src={curtainImage1}
               alt="Imagem de cortina 1"
               className="object-cover w-full h-auto"
               width={600}
